@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sware/uhh/issues"
   },
-  "homepage": "https://github.com/sware/uhh"
+  "homepage": "https://github.com/sware/uhh",
+  "dependencies": {
+    "restler": "^3.2.2"
+  }
 }
