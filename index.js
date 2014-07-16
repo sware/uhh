@@ -20,6 +20,8 @@ var Wit = {
     }
 };
 
-Wit.process("get rid of file", function(witResult) {
-    console.log("WIT RESULT:", witResult)
+var statement = process.argv.splice(2).join(" ");
+
+Wit.process(statement, function(witResult) {
+    console.log("WIT RESULT:", JSON.stringify(witResult, null, "\t"))
 });
